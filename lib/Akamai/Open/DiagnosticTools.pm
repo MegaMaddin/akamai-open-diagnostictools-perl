@@ -1,11 +1,4 @@
 package Akamai::Open::DiagnosticTools;
-
-BEGIN {
-    $Akamai::Open::DiagnosticTools::AUTHORITY = 'cpan:PROBST';
-}
-{
-    $Akamai::Open::DiagnosticTools::VERSION = '0.01';
-}
 # ABSTRACT: The Akamai Open DiagnosticTools API Perl client
 
 use strict;
@@ -220,10 +213,6 @@ __END__
 
 =encoding utf-8
 
-=head1 NAME
-
-Akamai::Open::DiagnosticTools - The Akamai Open DiagnosticTools API Perl client
-
 =head1 SYNOPSIS
 
  use Akamai::Open::Client;
@@ -400,17 +389,6 @@ The hash reference has the following format:
 =head2 $diag->last_error()
 
 Just returns the last occured error.
-
-=head1 AUTHOR
-
-Martin Probst <internet+cpan@megamaddin.org>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2014 by Martin Probst.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
 
 =cut
 
